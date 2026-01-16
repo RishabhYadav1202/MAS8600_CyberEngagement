@@ -1,6 +1,5 @@
-#############################################
-# Summary table: Funnel metrics per run     #
-#############################################
+# Summary table: Funnel metrics per run     
+
 
 stopifnot(exists("funnel_step_all"))
 

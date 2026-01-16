@@ -1,7 +1,3 @@
-#######################################################
-# Build analysis-ready objects per run (NO combining)  #
-#######################################################
-
 for (r in 1:7) {
   
   step_name <- paste0("clean_step_activity_run", r)

@@ -1,7 +1,5 @@
-#############################
-# Helper functions (MOOC)   #
-#############################
 
+# Helper functions (MOOC) 
 standardise_keys <- function(df) {
   df |>
     dplyr::rename_with(~ gsub("\\s+", "_", .x)) |>

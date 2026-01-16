@@ -1,6 +1,6 @@
-#############################################
-# Prepare combined funnel table (for plots) #
-#############################################
+
+# Preparing combined funnel table 
+
 
 # Combine per-run funnel objects (plotting table only)
 funnel_step_all <- dplyr::bind_rows(lapply(1:7, function(r) {

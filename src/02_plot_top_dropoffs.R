@@ -1,6 +1,5 @@
-#############################################
-# Plot 1: Top drop-offs by run              #
-#############################################
+# Plot 1: Top drop-offs by run  
+
 
 stopifnot(exists("funnel_step_all"))
 
@@ -34,3 +33,4 @@ ggplot2::ggsave("outputs/plots/top_dropoffs.png", p_drop, width = 12, height = 7
 
 cache("top_dropoffs")
 cache("p_drop")
+

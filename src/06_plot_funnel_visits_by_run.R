@@ -1,6 +1,5 @@
-#############################################
-# Plot 3: Funnel visits across steps by run #
-#############################################
+# Plot 3: Funnel visits across steps by run 
+
 
 stopifnot(exists("funnel_step_all"))
 

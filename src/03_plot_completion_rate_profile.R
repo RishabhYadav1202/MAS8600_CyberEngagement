@@ -1,6 +1,4 @@
-#############################################
-# Plot 2: Completion rate profile by run    #
-#############################################
+# Plot 2: Completion rate profile by run    
 
 stopifnot(exists("funnel_step_all"))
 
